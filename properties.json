@@ -1,0 +1,49 @@
+{
+  "geometric_properties": {
+    "x0": 0,
+    "z0": -30,
+    "x1": 25000,
+    "z1": -30,
+    "Ry": 1000000,
+    "Rz": 1000000,
+    "ds": 25,
+    "lat_0": 41.39587,
+    "lon_0": 140.20065,
+    "lat_1": 41.262414,
+    "lon_1": 140.340894
+  },
+  "timestepping_properties": {
+    "t0" : 0,
+    "t1" : 120
+  },
+  "tunnel_properties": {
+    "youngs_modulus_concrete": 3e10,
+    "outer_diameter_tunnel" : 15,
+    "wall_thickness_tunnel" : 1,
+    "density_concrete": 2650,
+    "density_water" : 1025,
+    "poissons_ratio" : 0.2,
+    "C_m" : 2,
+    "C_d" : 1
+  },
+  "mooring_system_properties": {
+    "anchor_distance_x" : 100,
+    "n_strands_per_anchor" : 8,
+    "youngs_modulus_aramid" : 130e9,
+    "diameter_mooring_line" : 0.1,
+    "minimum_mooring_depth" : 7.6,
+    "theta_deg_anchor" : 45
+  },
+  "hydro_load_properties" : {
+    "H_wave_m" : 10,
+    "T_wave_s" : 20,
+    "theta_wave_deg_wrt_yaxis" : 0,
+    "current_velocity" : 4,
+    "theta_current_deg_wrt_yaxis" : 0,
+    "bottom_roughness" : 0.005
+  },
+  "seismic_load_properties": {
+    "frequency_Hz" : 2.5
+  },
+  "bathymetry_file" : "./assets/gebco_2025_n46.71_s30.433_w128.914_e146.058_geotiff.tif"
+}
